@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Youth week registration page</title>
+  </head>
+  <body>
+    <main>
+      <section class="wrapper">
+        <div class="logo">
+          <img src="preview.jpg" alt="CAC">
+        </div>
+        <div class="title">
+          <h1>CAC YABA YOUTH WEEK 2022 REGISTRATION PAGE</h1>
+        </div>
+        <form action="mailto:durobolu@gmail.com" method="POST" class="form" >
+          <div class="input-field">
+            <label for="name">First Name</label>
+            <input type="text" class="input" name="Name" required  />
+          </div>
+          <div class="input-field">
+            <label for="name">Last Name</label>
+            <input type="text" class="input" name="Name" required />
+          </div>
+          <div class="input-field">
+            <label for="email">Email</label>
+            <input type="email" class="input" name="Email" required />
+          </div>
+          <div class="input-field">
+            <label for="phone">Phone Number</label>
+            <input type="number" class="input" name="Phone Number" required />
+          </div>
+          <div class="input-field">
+            <label for="gender">Gender</label>
+            <div class="gender-select" >
+              <select name="Gender">
+                <option value="">Select Gender</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-field">
+            <label for="message">Message</label>
+            <textarea
+              class="textarea"
+              placeholder="What is your espectation at the end of this program? " name="Message"
+            ></textarea>
+          </div>
+          <div class="input-field">
+            <label for="text" name="Image">Upload Image</label>
+            <input type="file" accept="image/*" class="upload" name="Image" required />
+          </div>
+          <div class="input-field">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
